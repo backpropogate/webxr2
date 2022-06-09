@@ -1,0 +1,235 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "s_output" : "exporting...",
+                "b_export" : 1,
+                "export_path" : "C:\\Users\\18629\\Desktop\\",
+                "b_bake_lightmap" : 0,
+                "b_use_lightmapper" : 0,
+                "b_renderer" : 1,
+                "b_aa" : 0,
+                "b_colorManagement" : 0,
+                "b_settings" : 1,
+                "b_player" : 1,
+                "f_player_speed" : 2.4699997901916504,
+                "b_raycast" : 1,
+                "matlib" : {},
+                "b_cubemap_background" : 1,
+                "b_show_env_sky" : 1
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cube.006",
+            "rotation" : [
+                0,
+                -0.7071068286895752,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                -45.13618469238281,
+                -30.66193199157715,
+                -27.192733764648438
+            ]
+        }
+    ],
+    "animations" : [
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "Cube.006",
+            "samplers" : [
+                {
+                    "input" : 5,
+                    "interpolation" : "LINEAR",
+                    "output" : 6
+                },
+                {
+                    "input" : 5,
+                    "interpolation" : "LINEAR",
+                    "output" : 7
+                },
+                {
+                    "input" : 5,
+                    "interpolation" : "LINEAR",
+                    "output" : 8
+                }
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.007",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                1,
+                1,
+                1
+            ],
+            "min" : [
+                -1,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 2,
+            "max" : [
+                0.041666666666666664
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 576
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 960
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 1152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8,
+            "byteOffset" : 1224
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 1232
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 1256
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 1288
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1312,
+            "uri" : "data:application/octet-stream;base64,AACAvwAAgL8AAIA/AACAvwAAgL8AAIA/AACAvwAAgL8AAIA/AACAvwAAgD8AAIA/AACAvwAAgD8AAIA/AACAvwAAgD8AAIA/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgL8AAIC/AACAvwAAgD8AAIC/AACAvwAAgD8AAIC/AACAvwAAgD8AAIC/AACAPwAAgL8AAIA/AACAPwAAgL8AAIA/AACAPwAAgL8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgD8AAIA/AACAPwAAgL8AAIC/AACAPwAAgL8AAIC/AACAPwAAgL8AAIC/AACAPwAAgD8AAIC/AACAPwAAgD8AAIC/AACAPwAAgD8AAIC/AACAvwAAAAAAAACAAAAAAAAAgL8AAACAAAAAAAAAAAAAAIA/AACAvwAAAAAAAACAAAAAAAAAAAAAAIA/AAAAAAAAgD8AAACAAACAvwAAAAAAAACAAAAAAAAAgL8AAACAAAAAAAAAAAAAAIC/AACAvwAAAAAAAACAAAAAAAAAAAAAAIC/AAAAAAAAgD8AAACAAAAAAAAAgL8AAACAAAAAAAAAAAAAAIA/AACAPwAAAAAAAACAAAAAAAAAAAAAAIA/AAAAAAAAgD8AAACAAACAPwAAAAAAAACAAAAAAAAAgL8AAACAAAAAAAAAAAAAAIC/AACAPwAAAAAAAACAAAAAAAAAAAAAAIC/AAAAAAAAgD8AAACAAACAPwAAAAAAAACAAAAAAAAAgD8AAACAAACAPwAAgD8AAAAAAAAAgAAAgD8AAAAAAACAPwAAAIAAAIA/AAAAAAAAgD8AAACAAACAPwAAAAAAAIA/AAAAgAAAgD8AAIC/AAAAAAAAAIAAAIA/AAAAAAAAgD8AAACAAACAPwAAgD8AAAAAAAAAgAAAgD8AAAAAAACAPwAAAIAAAIA/AAAAAAAAgD8AAACAAACAPwAAAAAAAIA/AAAAgAAAgD8AAIC/AAAAAAAAAIAAAIA/AACAPwAAAAAAAACAAACAPwAAAAAAAIA/AAAAgAAAgD8AAAAAAACAPwAAAIAAAIA/AAAAAAAAgD8AAACAAACAPwAAgL8AAAAAAAAAgAAAgD8AAAAAAACAPwAAAIAAAIA/AACAPwAAAAAAAACAAACAPwAAAAAAAIA/AAAAgAAAgD8AAAAAAACAPwAAAIAAAIA/AAAAAAAAgD8AAACAAACAPwAAgL8AAAAAAAAAgAAAgD8AAAAAAACAPwAAAIAAAIA/AADAPgAAgD8AAAA+AACAPgAAwD4AAAAAAAAgPwAAgD8AACA/AAAAAAAAYD8AAIA+AADAPgAAQD8AAAA+AAAAPwAAwD4AAEA/AAAgPwAAQD8AACA/AABAPwAAYD8AAAA/AADAPgAAgD4AAMA+AACAPgAAwD4AAIA+AAAgPwAAgD4AACA/AACAPgAAID8AAIA+AADAPgAAAD8AAMA+AAAAPwAAwD4AAAA/AAAgPwAAAD8AACA/AAAAPwAAID8AAAA/AAADAAkAAAAJAAYACAAKABUACAAVABMAFAAXABEAFAARAA4ADQAPAAQADQAEAAIABwASAAwABwAMAAEAFgALAAUAFgAFABAAAAAAAKuqKj0AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAA9AQ1vwAAAIDyBDU/AAAAAPQENb8AAACA8gQ1P3SLNMKjS/XBuIrZwXSLNMKjS/XBuIrZwQ=="
+        }
+    ]
+}
